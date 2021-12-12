@@ -1,0 +1,75 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+}
+body{
+    background-image: url('https://www.xmple.com/wallpaper/linear-gradient-yellow-blue-1920x1080-c2-ffdab9-00ffff-a-90-f-14.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 43rem; */
+}
+
+.Sign-box{
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+    background-color: #319e8f26;
+    border-radius: 13px;
+    width: 21rem;
+    left: 32rem;
+    top: 8rem;
+    position: absolute;
+    height: 22rem;
+}
+.Sign-box h1{
+    margin: 5px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+input{
+    margin: 12px;
+    background: #add8e67d;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 7px;
+    width: 16rem;
+    text-align: center;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    margin-top: 3rem;
+}
+input::-webkit-input-placeholder {
+    font-size: 15px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    line-height: 3;
+}
+
+#fullname{
+   margin-top: 4rem;
+}
+#Email{
+    margin-top: 1rem;
+}
+.btn{
+    margin-top: 3rem;
+    border-radius: 14px;
+    width: 6rem;
+    cursor: pointer;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    background-color: #35d2c4;
+    height: 2rem;
+    position: relative;
+    top: -2px;
+    border: 2px solid black;
+    background-image: linear-gradient(to right, #f8f59794 4%, #0be2d0 100%);
+    transition: all .5s ease;
+}
+.btn:hover{
+    background-position: right center;
+    background-image: linear-gradient(to right, #0be2d0 4%, #f8f59794 100%);
+    transition: all .5s ease;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    /* background-color: crimson; */
+}
